@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>261e1d3d-5f1f-408f-8ca7-bd3a2f52c7de</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CodeWars.py</StartupFile>
+    <StartupFile>findTheOddInt.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CodeWars.py" />
+    <Compile Include="findTheOddInt.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="The Supermarket Queue.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
