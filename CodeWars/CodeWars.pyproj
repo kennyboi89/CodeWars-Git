@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>261e1d3d-5f1f-408f-8ca7-bd3a2f52c7de</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>findTheOddInt.py</StartupFile>
+    <StartupFile>FindTheParityOutlier.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="CodeWars.py" />
     <Compile Include="findTheOddInt.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FindTheParityOutlier.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="The Supermarket Queue.py">
